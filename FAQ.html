@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>FAQ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300|Raleway:200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="FAQ.css">
+</head>
+
+<body onload="myFunction()">
+
+  <div id="loading"></div>
+
+
+  <div class="container">
+    <header> <a href="javascript: history.go(-1)"> <i class="fa fa-angle-double-left fa-2x" aria-hidden="true"></i></a>
+      <div class="head-img">
+        <img src="concours.png" alt="">
+      </div>
+    </header>
+    <h2>FAQ</h2>
+    <br>
+    <br>
+    <div id="accordion">
+      <div class="card">
+        <div class="card-header">
+          <a class="collapsed card-link" data-toggle="collapse" href="#collapseOne">
+            <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+            Are the matches knockout or league?
+          </a>
+        </div>
+        <div id="collapseOne" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            Depending on the number of participants different sports will have different formats. More the participants
+            the more the likelihood of it being a knockout.
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="card">
+        <div class="card-header">
+          <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+            <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+            Accomodation? On/Off campus?
+          </a>
+        </div>
+        <div id="collapseTwo" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            All female participants will be provided accomodation in campus. We will try to do the same for all male
+            participants. If the number exceeds our capacity accomodation will be provided elsewhere close to the
+            campus.
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="card">
+        <div class="card-header">
+          <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+            <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+            Is it necessary that the team have to participate for all the sports from a particular college?
+          </a>
+        </div>
+        <div id="collapseThree" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            No, you will have to register before the event to be able to take part but you can take part in fun events.
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="card">
+        <div class="card-header">
+          <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">
+            <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+            Is there any proof we need to bring when we come to pay?
+          </a>
+        </div>
+        <div id="collapseFour" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            You are required to get the latest fee receipt of college and an original ID proof issued by the institute
+            for each participant.
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="card">
+        <div class="card-header">
+          <a class="collapsed card-link" data-toggle="collapse" href="#collapseFive">
+            <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+            If I am not able to attend any sport, will l get a refund?
+          </a>
+        </div>
+        <div id="collapseFive" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            Registration fees are supposed to be paid within a week of your registration. Once paid, there will be no
+            refund issued in any case.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var preloader = document.getElementById('loading');
+
+    function myFunction() {
+      preloader.style.display = 'none';
+    }
+  </script>
+
+</body>
+
+</html>

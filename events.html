@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Sports Events</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300|Merriweather:500|Raleway:200&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="events.css" />
+</head>
+
+<body onload="myFunction()">
+
+    <div id="loading"></div>
+
+    <header> <a href="javascript: history.go(-1)"> <i class="fa fa-angle-double-left fa-2x" aria-hidden="true"></i></a>
+        <div class="head-img">
+            <img src="concours.png" alt="">
+        </div>
+    </header>
+    <h1> <span>E</span>VENTS</h1>
+    <div class="row">
+        <div class="col-4">
+            <div class="menu__container">
+                <div class="menu">
+                    <a href="football.html"><img src="football-icon.png" alt="" /></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="menu__container">
+                <div class="menu">
+                    <a href="cricket.html"> <img src="cricket-icon.png" alt="" /></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="menu__container">
+                <div class="menu">
+                    <a href="badminton.html"><img src="badminton-icon.png" alt="" /></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-4">
+            <div class="menu__container">
+                <div class="menu">
+                    <a href="volleyball.html"><img src="volleyball-icon.png" alt="" /></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="menu__container">
+                <div class="menu">
+                    <a href="tennis.html"> <img src="tennis-icon.png" alt="" /></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="menu__container">
+                <div class="menu">
+                    <a href="chess.html"><img src="chess-icon.png" alt="" /></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <div class="menu__container">
+                <div class="menu">
+                    <a href="carrom.html"> <img src="carrom-icon.png" alt="" /></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="menu__container">
+                <div class="menu">
+                    <a href="table-tennis.html"> <img src="table-tennis-icon.png" alt="" /></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="menu__container">
+                <div class="menu">
+                    <a href="basketball.html"> <img src="basketball-icon.png" alt="" /></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--<section>
+        <div class="rule">
+            <a href="Concours 2019[Rule Book].pdf" target="_blank">
+                <h4> RULEBOOK</h4>
+            </a>
+        </div>
+    </section>-->
+
+
+    <section>
+        <div class="rule">
+            <form action="Concours-RuleBook.pdf" method="get" target="_blank">
+                <button type="submit" class="button">RULE BOOK</button>
+            </form>
+        </div>
+    </section>
+
+    <script>
+        var preloader = document.getElementById('loading');
+
+        function myFunction() {
+            preloader.style.display = 'none';
+        }
+    </script>
+
+</body>
+
+<script src="app.js"></script>
+
+</html>
