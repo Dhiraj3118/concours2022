@@ -1,71 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans:300|Raleway:200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="concours.png" type="image/png" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Main Page</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300|Raleway:200&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="main.css" />
-  <title>Main Page</title>
-</head>
+  <body onload="myFunction()">
+    <div id="loading"></div>
 
-<body onload="myFunction()">
-
-  <div id="loading"></div>
-
-  <nav>
-    <div class="hamburger">
-      <div class="line"></div>
-      <div class="line"></div>
-      <div class="line"></div>
-    </div>
-    <ul class="nav-links">
-      <li><a href="about_us.html" class="linked">ABOUT CONCOURS</a></li>
-      <li><a href="events.html" class="linked">SPORTS EVENTS</a></li>
-      <li><a href="informal.html" class="linked">INFORMAL EVENTS</a></li>
-      <li><a href="FAQ.html" class="linked">FAQ</a></li>
-      <li><a href="register.html" class="linked">REGISTER</a></li>
-      <li><a href="sponsors.html" class="linked">SPONSORS</a></li>
-      <li><a href="team.html" class="linked">THE TEAM</a></li>
-    </ul>
-  </nav>
-
-  <section class="landing">
-    <img src="concours.png" alt="" />
-    <h1>CONCOURS 2019</h1>
-    <p>"WHERE <strong>GLORY</strong> LASTS <strong>FOREVER</strong>"</p>
-
-    <p>7-10<sup>TH</sup> NOVEMBER</p>
-    <footer>
-      <ul>
-        <li>
-          <a href="https://www.facebook.com/ConcoursDaiict/" target="_blank">
-            <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i></a>
-        </li>
-        <li>
-          <a href=" https://www.instagram.com/sportsatdaiict/" target="_blank">
-            <i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
-        </li>
-        <li>
-          <a href="mailto:daiictconcours@gmail.com">
-            <i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a>
-        </li>
+    <nav>
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <ul class="nav-links">
+        <li><a href="about_us.html" class="linked">ABOUT CONCOURS</a></li>
+        <li><a href="events.html" class="linked">SPORTS EVENTS</a></li>
+        <li><a href="informal.html" class="linked">INFORMAL EVENTS</a></li>
+        <li><a href="FAQ.html" class="linked">FAQ</a></li>
+        <!-- <li><a href="register.html" class="linked">REGISTER</a></li> -->
+        <li><a href="sponsors.html" class="linked">SPONSORS</a></li>
+        <li><a href="team.html" class="linked">THE TEAM</a></li>
       </ul>
-    </footer>
-  </section>
+    </nav>
 
-  <script>
-    var preloader = document.getElementById('loading');
+    <section class="landing">
+      <img src="concours.png" alt="" />
+      <h1>CONCOURS 2019</h1>
+      <p>"WHERE <strong>GLORY</strong> LASTS <strong>FOREVER</strong>"</p>
 
-    function myFunction() {
-      preloader.style.display = 'none';
-    }
-  </script>
+      <p>7-10<sup>TH</sup> NOVEMBER</p>
+      <footer>
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/ConcoursDaiict/" target="_blank">
+              <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href=" https://www.instagram.com/sportsatdaiict/"
+              target="_blank"
+            >
+              <i class="fa fa-instagram fa-lg" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a href="mailto:daiictconcours@gmail.com">
+              <i class="fa fa-envelope fa-lg" aria-hidden="true"></i
+            ></a>
+          </li>
+        </ul>
+      </footer>
+    </section>
 
-</body>
-<script src="app.js"></script>
+    <script>
+      var preloader = document.getElementById("loading");
 
+      function myFunction() {
+        preloader.style.display = "none";
+      }
+    </script>
+  </body>
+  <script src="app.js"></script>
 </html>
