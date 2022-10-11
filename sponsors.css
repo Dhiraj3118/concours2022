@@ -1,0 +1,17 @@
+.sponsors {
+  margin-top: 5rem;
+}
+
+.sponsors h2 {
+  color: #fff;
+  text-align: center;
+}
+
+.sponsor-imgs {
+  display: flex;
+  justify-content: center;
+}
+
+.sponsor-imgs img {
+  margin: 2rem 5rem;
+}
