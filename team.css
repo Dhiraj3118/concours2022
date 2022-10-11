@@ -37,7 +37,8 @@
 }
 
 .card-name,
-.card-pos {
+.card-pos,
+.card-num {
   display: block;
   text-align: center;
 }
@@ -46,7 +47,8 @@
   font-size: 2.5rem;
 }
 
-.card-pos {
+.card-pos,
+.card-num {
   font-size: 2rem;
 }
 
